@@ -1,0 +1,36 @@
+footer {
+  font-family: "Alata", sans-serif;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.footer__logo {
+  padding-top: 3.3rem;
+  text-align: center;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer__list--item {
+  font-size: 1rem;
+  padding: 1rem;
+}
+.footer__list--item a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.5s;
+}
+
+a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.copyright {
+  text-align: center;
+  color: hsl(0, 0%, 55%);
+}

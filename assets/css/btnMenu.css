@@ -1,0 +1,45 @@
+.btn-menu {
+  background-color: transparent;
+  border: none;
+  padding: 0rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-menu__open i::before {
+  background-image: url(../images/icon-hamburger.svg);
+  background-repeat: no-repeat;
+  color: #fff;
+  content: " ";
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.btn-menu__close i::before {
+  display: block;
+  background-image: url(../images/icon-close.svg);
+  background-repeat: no-repeat;
+  color: #fff;
+  content: " ";
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  visibility: hidden;
+}
+
+.menu.open .btn-menu__close i::before {
+  visibility: visible;
+  transition-delay: 0.4s;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-menu {
+    display: none;
+  }
+}

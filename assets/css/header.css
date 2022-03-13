@@ -1,0 +1,50 @@
+.header__container {
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  position: absolute;
+  top: 1.8rem;
+  left: 2rem;
+  z-index: 2;
+}
+
+.header__title {
+  border: 2px solid #fff;
+  color: hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+
+  font-size: 2.5rem;
+  font-weight: 100;
+  padding: 1.5rem;
+
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 768px) {
+  .header__container {
+    padding: 3rem 10%;
+  }
+  .header__logo {
+    position: relative;
+    height: 2rem;
+    top: 0;
+    left: 0;
+  }
+
+  .header__title {
+    font-size: 4rem;
+    left: 10%;
+    transform: translate(0%, -50%);
+    max-width: 30rem;
+  }
+}
