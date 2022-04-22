@@ -30,7 +30,7 @@
   padding: 0.5rem;
 }
 
-a:hover {
+.menu__list--item > a:hover {
   border-bottom: 1px solid #fff;
 }
 

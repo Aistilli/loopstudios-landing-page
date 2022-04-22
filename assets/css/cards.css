@@ -1,0 +1,15 @@
+.our-creations__container {
+  width: 100%;
+}
+
+.our-creations__cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.deep-earth {
+  opacity: 1;
+}
+.deep-earth:hover {
+  opacity: 0.4;
+}

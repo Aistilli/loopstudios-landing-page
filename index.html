@@ -27,11 +27,11 @@
           alt="logo Loopstudios"
         />
 
-        <button class="btn-menu btn-menu__open">
+        <button class="btn-menu btn-menu__open" aria-label="toggle menu">
           <i></i>
         </button>
         <nav class="menu">
-          <button class="btn-menu btn-menu__close">
+          <button class="btn-menu btn-menu__close" aria-label="close menu">
             <i></i>
           </button>
           <ul class="menu__list">
@@ -68,71 +68,86 @@
         <h2 class="our-creations__title">Our creations</h2>
         <button>See all</button>
 
-        <div>
-          <h3>Deep earth</h3>
-        </div>
-        <div>
-          <h3>Night arcade</h3>
-        </div>
-        <div>
-          <h3>Soccer team VR</h3>
-        </div>
-        <div>
-          <h3>The grid</h3>
-        </div>
-        <div>
-          <h3>From up above VR</h3>
-        </div>
-        <div>
-          <h3>Pocket borealis</h3>
-        </div>
-        <div>
-          <h3>The curiosity</h3>
-        </div>
-        <div>
-          <h3>Make it fisheye</h3>
+        <div class="our-creations__cards">
+          <div class="our-creations__card deep-earth">
+            <img src="./assets/images/mobile/image-deep-earth.jpg" alt="" />
+            <h3>Deep earth</h3>
+          </div>
+          <div>
+            <h3>Night arcade</h3>
+          </div>
+          <div>
+            <h3>Soccer team VR</h3>
+          </div>
+          <div>
+            <h3>The grid</h3>
+          </div>
+          <div>
+            <h3>From up above VR</h3>
+          </div>
+          <div>
+            <h3>Pocket borealis</h3>
+          </div>
+          <div>
+            <h3>The curiosity</h3>
+          </div>
+          <div>
+            <h3>Make it fisheye</h3>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <div class="footer__logo">
-        <img
-          class="logo"
-          src="./assets/images/logo.svg"
-          alt="logo Loopstudios"
-        />
+      <div class="footer__left">
+        <div class="footer__logo">
+          <img
+            class="logo"
+            src="./assets/images/logo.svg"
+            alt="logo Loopstudios"
+          />
+        </div>
+        <nav>
+          <ul class="footer__list">
+            <li class="footer__list--item"><a href="#">About</a></li>
+            <li class="footer__list--item"><a href="#">Careers</a></li>
+            <li class="footer__list--item"><a href="#">Events</a></li>
+            <li class="footer__list--item"><a href="#">Products</a></li>
+            <li class="footer__list--item"><a href="#">Support</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul class="footer__list">
-          <li class="footer__list--item"><a href="#">About</a></li>
-          <li class="footer__list--item"><a href="#">Careers</a></li>
-          <li class="footer__list--item"><a href="#">Events</a></li>
-          <li class="footer__list--item"><a href="#">Products</a></li>
-          <li class="footer__list--item"><a href="#">Support</a></li>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <li>
-            <a href="#"><i></i></a>
-          </li>
-          <li>
-            <a href="#"><i></i></a>
-          </li>
-          <li>
-            <a href="#"><i></i></a>
-          </li>
-          <li>
-            <a href="#"><i></i></a>
-          </li>
-        </ul>
-      </nav>
-      <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+      <div class="footer__right">
+        <nav>
+          <ul class="footer__social-media">
+            <li class="footer__social-media--item">
+              <a href="https://www.facebook.com/frontendmentor"
+                ><img src="./assets/images/icon-facebook.svg" alt="facebook"
+              /></a>
+            </li>
+            <li class="footer__social-media--item">
+              <a href="#"
+                ><img src="./assets/images/icon-twitter.svg" alt="twitter"
+              /></a>
+            </li>
+            <li class="footer__social-media--item">
+              <a href="#"
+                ><img src="./assets/images/icon-pinterest.svg" alt="pinterest"
+              /></a>
+            </li>
+            <li class="footer__social-media--item">
+              <a href="#"
+                ><img src="./assets/images/icon-instagram.svg" alt="instagram"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+        <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+      </div>
       <div class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Aistilli</a>.
+        >. Coded by <a href="https://github.com/Aistilli">Aistilli</a>.
       </div>
     </footer>
     <script src="./assets/js/index.js"></script>
