@@ -1,5 +1,7 @@
 .about__container {
   padding: 6rem 1.5rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .about__image img {
@@ -10,7 +12,7 @@
 .about__text {
   background-color: hsl(0, 0%, 100%);
   text-align: center;
-  padding: 3rem 2rem;
+  padding: 3rem 1rem 0;
 }
 
 .about__text h2 {
@@ -29,8 +31,9 @@
 
 @media screen and (min-width: 768px) {
   .about__container {
-    padding: 6rem 10%;
+    padding: 6rem 14%;
     position: relative;
+    margin: 0 auto;
   }
   .about__image img {
     width: 60%;
@@ -43,6 +46,7 @@
     top: 45%;
     right: 5%;
     text-align: left;
+    padding: 1rem 4rem 1rem 1rem;
   }
   .about__text h2 {
     font-size: 2rem;
@@ -54,13 +58,22 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .about__container {
+    padding: 6rem 10%;
+  }
+
   .about__text {
     padding: 4rem;
   }
 }
 @media screen and (min-width: 1440px) {
+  .about__container {
+    padding: 6rem 11%;
+    max-width: 1112px;
+  }
+
   .about__text {
-    padding: 4rem;
+    padding: 4rem 11% 4rem 4rem;
     right: 0;
   }
   .about__text h2 {
